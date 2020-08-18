@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-NZQDR6X');</script>
+        <!-- End Google Tag Manager -->
+
+        <title>Never Ending Cycle</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property='og:title' content='Never Ending Cycle'/>
+        <meta property='og:description' content='Travels & Guides'/>
+        <link rel="icon" href="../imgs/travel_favicon.png">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="../css/style.css" rel="stylesheet" type="text/css">
+        <link href="../css/guides.css" rel="stylesheet" type="text/css">
+        <link href="../css/travels.css" rel="stylesheet" type="text/css">
+    </head>
+
+     <body>
+        <div class="container">
+
+            <%- include("partials/navbar") %>
+
+         </div>
+
+         <div class="container-fluid">
+            <div class="row">
+                <span class="col-sm-12" id="banner"><img src="../imgs/IMG_0026.jpg" alt="travels-banner" width="100%"></span>
+                <h1 style="text-align: center">Travels</h1>
+            </div>
+         </div>
+
+        <div class="container">
+                <div class="row mb-4">
+                    <span style="margin: 0px 10px 25px 10px; text-align: center;" class="main_text">
+                        I've had the great opportunity to solo travel to a wide variety of locations around the globe. Self-funding my trips is an arduous yet rewarding experience because I get to be truly independent when I go abroad. I fully believe that solo traveling has many, many rewards that you can't get from traveling with family or friends. <br><br>
+
+                        I've spent quite a bit of money traveling but I don't regret it one bit. I am very, very lucky because none of this would have been possible if I didn't start saving since high school, and the fact that I got my tuition and books covered for most of my years at university. But most importantly, I also thank my family & friends for their help. If a specific city does not redirect to a new page, the guide is in progress - thank you for your patience!
+                    </span>
+                </div>
+
+<!--                 <div id="map"></div>
+                <script>
+                    let map;
+
+                    function initMap() {
+                        map = new google.maps.Map(document.getElementById("map"), {
+                        center: { lat: -34.397, lng: 150.644 },
+                        zoom: 8
+                        });
+                    }
+                </script> -->
+
+                <iframe src="https://www.google.com/maps/d/embed?mid=1HBFnFKX9wrbJrQADXUo3SFMQZcUKO4kH" width="100%" height="600"></iframe>
+
+                <div class="row">
+                   <span class="col-sm-12" id="continents">The Americas</span>
+                </div>
+
+                <div class="row">
+                        <img class="col-sm-3" src="../imgs/square.png" alt="square">
+                        <img class="col-sm-3" src="../imgs/square.png" alt="square">
+                        <img class="col-sm-3" src="../imgs/square.png" alt="square">
+                        <img class="col-sm-3" src="../imgs/square.png" alt="square">
+                </div>
+
+                <div class="row">
+                   <span class="col-sm-12" id="continents">Europe</span>
+                </div>
+
+                <div class="row">
+                        <img class="col-sm-3" src="../imgs/square.png" alt="square">
+                        <img class="col-sm-3" src="../imgs/square.png" alt="square">
+                        <img class="col-sm-3" src="../imgs/square.png" alt="square">
+                        <img class="col-sm-3" src="../imgs/square.png" alt="square">
+                </div>
+
+                <div class="row">
+                   <span class="col-sm-12" id="continents">Asia/Oceana</span>
+                </div>
+
+                <div class="row">
+                        <img class="col-sm-3" src="../imgs/square.png" alt="square">
+                        <img class="col-sm-3" src="../imgs/square.png" alt="square">
+                        <img class="col-sm-3" src="../imgs/square.png" alt="square">
+                        <img class="col-sm-3" src="../imgs/square.png" alt="square">
+                </div>
+
+                <div class="row">
+                   <span class="col-sm-12" id="continents">Africa/Middle East</span>
+                </div>
+
+                <div class="row">
+                        <img class="col-sm-3" src="../imgs/square.png" alt="square">
+                        <img class="col-sm-3" src="../imgs/square.png" alt="square">
+                        <img class="col-sm-3" src="../imgs/square.png" alt="square">
+                        <img class="col-sm-3" src="../imgs/square.png" alt="square">
+                </div>
+
+        <!-- Load Google Maps API for JavaScript -->
+<!--         <script
+            async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJZNs_WgnYghLEpCN7FBdHrBsgEF3-vlI&callback=initMap">
+        </script> -->
+
+            <!-- Load Facebook SDK for JavaScript -->
+              <div id="fb-root"></div>
+              <script>
+                window.fbAsyncInit = function() {
+                  FB.init({
+                    xfbml            : true,
+                    version          : 'v8.0'
+                  });
+                };
+
+                (function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+                fjs.parentNode.insertBefore(js, fjs);
+              }(document, 'script', 'facebook-jssdk'));</script>
+
+              <!-- Your Chat Plugin code -->
+              <div class="fb-customerchat"
+                attribution=setup_tool
+                page_id="104965274628015"
+                logged_in_greeting="Hi! Don't know where to start? Check out the chat menu!"
+                logged_out_greeting="Hi! Don't know where to start? Check out the chat menu!">
+              </div>
+
+         </div>
+
+         <hr>
+
+         <div class="container">
+
+            <%- include("partials/footer") %>
+
+         </div>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    </body>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NZQDR6X"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+</html>

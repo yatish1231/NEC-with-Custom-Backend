@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-NZQDR6X');</script>
+        <!-- End Google Tag Manager -->
+
+        <title>Never Ending Cycle</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property='og:title' content='Never Ending Cycle'/>
+        <meta property='og:description' content='Travels & Guides'/>
+        <link rel="icon" href="../imgs/travel_favicon.png">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <link href="css/services.css" rel="stylesheet" type="text/css">
+    </head>
+
+     <body>
+
+        <div class="container">
+
+            <%- include("partials/navbar") %>
+
+            <div class="row">
+                <div class="title">
+                    <span class="col-sm-12">Travel Consulting Service</span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div style="position: relative; display: flex; top: 16px; margin-bottom: 16px;" class="main_text">
+                    <div class="col-sm-12">
+                        An all-inclusive, personalized travel consultant service could be right at your fingertips. I have gained a wealth of experience from solo traveling all over the world and my service puts all that experience at your disposal. In addition, I also have extensive experience planning vacations in a cost-saving manner by achieving the perfect balance between best value and maximum enjoyment on your vacation. If you are trying to plan a vacation and you're completely lost on:<br>
+                        <br>
+                        <ul>• &nbsp; How to plan</ul>
+                        <ul>• &nbsp; How to budget</ul>
+                        <ul>• &nbsp; How to make friends abroad</ul>
+                        <ul>• &nbsp; How to accumulate mileage</ul>
+                        <ul>• &nbsp; And other relevant questions</ul>
+
+                        You have come to the right place. I would love to help you achieve your travel goals, and I hope to collaborate with you soon!
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="table-responsive">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th scope="col"></th>
+                                <th scope="col" class="table-active">Polaroid<br>$10-$35</th>
+                                <th scope="col" class="table-active">Panorama<br>$35-$100</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <th scope="row">Personalized summary of my findings (exact links to <br> book certain flights) along with my recommendations</th>
+                                <td>✔️</td>
+                                <td>✔️</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Fast responses to all your inquiries</th>
+                                <td>✔️</td>
+                                <td>✔️</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">The service is only complete when you are satisfied</th>
+                                <td colspan="row">✔️</td>
+                                <td>✔️</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">A personalized PDF listing a day-by-day itinerary of your <br> vacation with as much detail as you need</th>
+                                <td colspan="row"></td>
+                                <td>✔️</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Unlimited revisions until you are satisfied with the package</th>
+                                <td colspan="row"></td>
+                                <td>✔️</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Fast turnaround on any questions or concerns you may have</th>
+                                <td colspan="row"></td>
+                                <td>✔️</td>
+                            </tr>
+                            <tr>
+                                <th colspan="3" id="disclaimer">* Disclaimer: This service is only a source of information, not a professional booking service. The airline industry is very volatile, so I am not responsible if the price goes up or down after the service is conducted. Terms and conditions may change without notice.</th>
+                            </tr>
+                        </tbody>
+
+                    </table>
+                </div>
+
+            </div>
+
+            <div id="questions?">
+                <h1 id="q">Questions?</h1>
+                <p id="qform">Use the form below, and I will get back to you at the email you provide below</p>
+            </div>
+
+            <div id="form-wrapper">
+                <p id="req">* Required Field</p>
+            <form>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <label for="firstName">First Name*</label>
+                            <input type="text" class="form-control" id="firstName" placeholder="First Name" required>
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="lastName">Last Name*</label>
+                            <input type="text" class="form-control" id="lastName" placeholder="Last Name" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address*</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" required>
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                    <label for="questions">Question</label>
+                    <input type="text" class="form-control" id="questions" aria-describedby="emailHelp" placeholder="Enter Question">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+            </div>
+
+            <!-- Load Facebook SDK for JavaScript -->
+              <div id="fb-root"></div>
+              <script>
+                window.fbAsyncInit = function() {
+                  FB.init({
+                    xfbml            : true,
+                    version          : 'v8.0'
+                  });
+                };
+
+                (function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+                fjs.parentNode.insertBefore(js, fjs);
+              }(document, 'script', 'facebook-jssdk'));</script>
+
+              <!-- Your Chat Plugin code -->
+              <div class="fb-customerchat"
+                attribution=setup_tool
+                page_id="104965274628015"
+                logged_in_greeting="Hi! Don't know where to start? Check out the chat menu!"
+                logged_out_greeting="Hi! Don't know where to start? Check out the chat menu!">
+              </div>
+
+         </div>
+
+         <hr>
+
+         <div class="container">
+             
+            <%- include("partials/footer") %>
+
+         </div>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </body>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NZQDR6X"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+</html>

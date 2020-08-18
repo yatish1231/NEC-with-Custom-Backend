@@ -1,0 +1,132 @@
+@media only screen and (min-width: 992px) {
+    .p {
+        margin-top: 28%;
+    }
+
+    #form-wrapper {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    .table-responsive {
+        margin: 40px 200px 40px 200px;
+    }
+
+    #jt {
+        width: 85%;
+    }
+}
+
+body {
+    padding-bottom: 50px;
+}
+
+.title {
+    /* Jason Tsao */
+    /* H1 Header */
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    /* or 108% */
+    display: grid;
+    align-items: center;
+    color: #000000;
+
+}
+
+.main_text{
+    /* Main Body */
+
+    /* Paragraph Default */
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    /* or 178% */
+    color: #000000;
+}
+
+.p {
+    margin-right: 2.0em;
+    color: black;
+    float: left;
+}
+
+.fab:hover, .fas:hover {
+    color: darkcyan;
+}
+
+.navbar {
+    background-color: #fff;
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+
+.navbar a {
+    /* MINICAPS */
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    text-decoration: none;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.navbar-nav .nav-item:hover .nav-link{
+    color: darkcyan;
+}
+
+#logo:hover {
+    opacity: 0.8;
+}
+
+hr {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.footer-copyright {
+    color: black;
+    font-size: 12px;
+    font-family: Inter;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    letter-spacing: 2.5px;
+    color: #000000;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-family: Inter;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    letter-spacing: 2.5px;
+    color: #000000;
+}
+
+.footer-links a:hover {
+  color: darkcyan;
+}
+
+h5 {
+    /* MINICAPS */
+    font-family: Inter;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    text-decoration: none;
+    letter-spacing: 2.5px;
+    color: #000000;
+}

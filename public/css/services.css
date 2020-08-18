@@ -1,0 +1,45 @@
+ul {
+    padding-left: 50px;
+}
+
+.table-responsive {
+    margin-top: 40px;
+}
+
+table td {
+   text-align: center; 
+}
+
+#disclaimer {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+#q {
+    margin-top: 40px;
+
+    /* H3 Header */
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    /* or 117% */
+}
+
+#qform {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#firstName, #lastName, #exampleInputEmail1, #questions {
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+}
+
+.form-control:focus {
+        border-color: black;
+        box-shadow: 0 0 0 0.2rem darkcyan;
+} 

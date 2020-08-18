@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-NZQDR6X');</script>
+        <!-- End Google Tag Manager -->
+
+        <title>Never Ending Cycle</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property='og:title' content='Never Ending Cycle'/>
+        <meta property='og:description' content='Travels & Guides'/>
+        <link rel="icon" href="imgs/travel_favicon.png">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <link href="css/guides.css" rel="stylesheet" type="text/css">
+    </head>
+
+     <body>
+        <div class="container">
+            <%- include("partials/navbar")%>            
+        </div>
+
+         <div class="container-fluid">
+            <div class="row">
+                <span class="col-sm-12" id="banner"><img src="imgs/home_banner.jpg" width= 100% alt="home-banner"></span>
+                <h1 style="text-align: center">Welcome</h1>
+            </div>
+         </div>
+
+        <div class="container">
+            
+            <div class="row mb-5">
+                <div class="col-lg-6">
+                    <img class="rounded mx-auto d-block" src="imgs/home_one.jpg">
+                </div>
+                <div class="col-lg-6 align-self-center">
+                    <p style="text-align: center">
+                        <span class="title">Definition of: never ending cycle</span>
+                        <span style="font-style: italic">nev·er / end·ing / cy·cle</span>
+                        <br>
+                        <span class="main_text ml-3 mr-3">1. At no time in the past or future where the furthest part of a series of events that are regularly repeated ever ends.</span>
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row mb-5">
+                <div class="col-lg-6 align-self-center">
+                    <p style="text-align: center">
+                        <span class="title">Mission</span>
+                        <span class="main_text ml-3 mr-3">Time is the world's most valuable resource - life is too short to have regrets. Traveling allows you to spend time with people you love and to improve upon yourself. The goal of this website is to help you gain a better understanding of how you could integrate travel into your lifestyle, no matter where you are in life.</span>
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <img class="rounded mx-auto d-block" src="imgs/home_two.jpg" width="90%">
+                </div>
+            </div>
+            
+            <div class="row mb-5">
+                <div class="col-lg-6">
+                    <img class="rounded mx-auto d-block" src="imgs/home_three.jpg" width="90%">
+                </div>
+                <div class="col-lg-6 align-self-center">
+                    <p style="text-align: center">
+                        <span class="title">Forward</span>
+                        <span class="main_text ml-3 mr-3">Join me on my adventures as I navigate working full-time, learning new skills, and making new friends and experiences along the way!</span>
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Load Facebook SDK for JavaScript -->
+              <div id="fb-root"></div>
+              <script>
+                window.fbAsyncInit = function() {
+                  FB.init({
+                    xfbml            : true,
+                    version          : 'v8.0'
+                  });
+                };
+
+                (function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+                fjs.parentNode.insertBefore(js, fjs);
+              }(document, 'script', 'facebook-jssdk'));</script>
+
+              <!-- Your Chat Plugin code -->
+              <div class="fb-customerchat"
+                attribution=setup_tool
+                page_id="104965274628015"
+                logged_in_greeting="Hi! Don't know where to start? Check out the chat menu!"
+                logged_out_greeting="Hi! Don't know where to start? Check out the chat menu!">
+              </div>
+
+         </div>
+
+         <hr>
+
+         <div class="container">
+
+            <%- include("partials/footer") %> 
+           
+         </div>
+         
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    </body>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NZQDR6X"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+</html>
